@@ -1,0 +1,48 @@
+we have to make this a pipeline automation in which the user(me)'s work was only to give the topic and the voiceover and timestamps. and then the whole video starts making, in the video I need high frequency of cuts means more scene. yeah I try make the each sentence in the script would be small that they switch scenes more quick for to maintain the high frequency  of the cuts and pash. let give you a example:
+narration- they come to the city, for the small the visual is that enemies come towards the city, Now next sentence, they loot the city the, it means they go inside the city and loot the shop and fired the house. animation like this a enemies soldiers enter the city make destruction and the fire the houses and the place where houses that had be burn now the empty place. You have to animate these things. then they again start growing the city more expansion.
+
+this is how I Need the engine should be to the built and render video and also I am give you my old engine which I made for the making of war explainer in 3d in this there are 3d tanks terrain place tree etc. you can see in the Old engine folder in the folder and can analyse the old engine how that was working. make the area of the world bigger that the edge of the terrain wouldn't shown and make sky dynamic like a real world. make sun shadow whether fog atmosphere river smoke , give you  some reference image in the folder for the how I want the video would the, use headless chrome for rendering. and in the rendering of the video uses the multiple worker to render fast. in within the render make a frames rendered window in which number frames shown that are already render. we don't need the to make the a human or something else for this.
+
+Engine Model:
+
+Build a custom, data-driven 3D simulation and video generation engine designed to produce cinematic, timeline-based videos for a specified content niche.
+
+The engine must operate around a persistent 3D environment rather than generating independent scenes for every shot. The environment should be constructed once using procedural geometry, reusable assets, configurable parameters and structured data.
+
+1. Persistent World System
+
+Create a continuous 3D environment containing all the objects, structures, characters, landscapes or other elements required by the selected niche. Every object should have configurable properties, positioning, scale, appearance, animation rules and lifecycle information.
+
+2. Procedural Generation System
+
+Develop a system that generates and distributes objects throughout the environment using structured data, procedural rules, reusable models and configurable parameters. It should support both automatic generation and manually positioned elements.
+
+3. Timeline and State Management System
+
+Every object should be capable of having multiple states throughout the timeline. Support object creation, appearance, growth, movement, transformation, interaction, destruction and removal. The engine must be able to reconstruct the entire environment at any specified timestamp or frame without relying on manually editing every individual scene.
+
+4. Simulation and Animation System
+
+Implement the necessary procedural animations, physics, interactions and environmental changes relevant to the selected niche. The system should support deterministic simulation so that the same inputs consistently produce the same results.
+
+5. Cinematic Camera System
+
+Build an independent camera choreography system with editable camera paths, keyframes, movement curves, tracking targets, zooms, rotations, aerial shots, close-ups and cinematic transitions. Camera movement should be controllable independently from the simulation timeline.
+
+6. Narrative and Timeline Synchronization
+
+Allow a video script or narration track to be imported. Connect narration timestamps to timeline events, simulation states and camera positions. Important narrative moments should trigger their corresponding visual events.
+
+7. Rendering and Export System
+
+Provide automated rendering of selected timelines and camera sequences. Support configurable resolution, frame rate, lighting, materials, shadows and output formats. Allow final footage to be assembled with narration, sound effects, music, subtitles and text overlays.
+
+8. Reusable Architecture
+
+Keep the world generator, object library, simulation rules, timeline controller, camera system, synchronization system and rendering pipeline modular. The objective is to reuse the same engine for multiple videos, episodes and subjects by changing datasets, assets, parameters, events and camera choreography rather than rebuilding the entire environment.
+
+The final product should function as a programmable 3D filmmaking system, not merely a conventional 3D animation project.
+
+
+
+
